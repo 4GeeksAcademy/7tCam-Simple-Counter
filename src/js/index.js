@@ -8,6 +8,16 @@ import "../styles/index.css";
 //import your own components
 import Home from "./component/home.jsx";
 
+let number = 0;
+
+	setInterval(() => {
+		number++;
+		
+		
+	
+
+
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+ReactDOM.createRoot(document.getElementById('app')).render(<Home digito1={number}/>);
+}, 1000);
 
