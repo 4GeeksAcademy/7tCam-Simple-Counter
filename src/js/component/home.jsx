@@ -15,11 +15,11 @@ const Home = (props) => {
 				<div className="card rounded-5 d-flex align-items-center  w-25">
 				<span class="text-white material-symbols-outlined mx-auto">alarm</span>
 				</div>
-				<div className="card rounded-5  d-flex align-items-center">0</div>
-				<div className="card  rounded-5  d-flex align-items-center">0</div>
-				<div className="card rounded-5  d-flex align-items-center">0</div>
-				<div className="card rounded-5  d-flex align-items-center">0</div>
-				<div className="card rounded-5  d-flex align-items-center">0</div>
+				<div className="card rounded-5  d-flex align-items-center">{props.digito6}</div>
+				<div className="card  rounded-5  d-flex align-items-center">{props.digito5}</div>
+				<div className="card rounded-5  d-flex align-items-center">{props.digito4}</div>
+				<div className="card rounded-5  d-flex align-items-center">{props.digito3}</div>
+				<div className="card rounded-5  d-flex align-items-center">{props.digito2}</div>
 				<div className="card rounded-5  d-flex align-items-center">{props.digito1}</div>
 			
 			</div>
